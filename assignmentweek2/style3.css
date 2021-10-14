@@ -42,7 +42,8 @@ header h3{
 .container-fluid{
 	background-color:grey;
 	padding: 20px;
-	margin: 10px 0;
+/* 	margin: 10px 0; */
+	margin:10px
 }
 .container-fluid h4{
 	text-align: center;
@@ -67,15 +68,18 @@ header h3{
 }
 
 /*MEDIA QUERIES */
-@media (max-width: 992px){}
+
+@media (max-width: 992px){
 .conatiner{
 	display:block;
-}
+       }
 }
 @media (max-width: 767px){
+	
 	.samall-div{
 		display: block;
 	}
+	
 	.samall-div p {
 	text-align: center;
 	font-size: 20px;
